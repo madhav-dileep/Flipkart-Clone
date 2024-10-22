@@ -194,7 +194,17 @@ ul>li>i{
     box-shadow: 1px ;
     border-radius: 5px;
 }
-
+.small-srch{
+    width: 600px;
+    height: 40px;
+    font-size: 17px;
+    border: none;
+    background-color: rgb(221, 233, 255);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
+    display: none;
+}
 
 
 /* AFTER NAV */
@@ -599,7 +609,7 @@ footer{
 
 
 
-@media (max-width:760px){
+@media (max-width:800px){
     
     #login-drop{
         display: none;
@@ -615,6 +625,7 @@ footer{
     }
     #head1{
         margin: 0;
+        margin-top: 90px;
     }
     .headsection1{
         margin: 0px;
@@ -628,7 +639,20 @@ footer{
         display: flex;
         flex-wrap: wrap;
     }
-  
+    nav{
+        /* height: 100px; */
+        /* display: flex; */
+        /* flex-direction: column; */
+    }
+    .small-srch{
+        display:flex;
+        flex: 1 0 100%;
+        justify-content: center;
+        width: 100%;
+        /* flex-direction: column; */
+        background-color: rgba(255, 255, 255, 0);
+    }
+
 }
 @media (max-width: 1000px){
     .search{
