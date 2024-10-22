@@ -412,9 +412,6 @@ ul>li>i{
     width: 100%;
     margin: 10px 20px;
 }
-.feature-head h2{
-
-}
 
 .feats{
     width: 100%;
@@ -639,11 +636,7 @@ footer{
         display: flex;
         flex-wrap: wrap;
     }
-    nav{
-        /* height: 100px; */
-        /* display: flex; */
-        /* flex-direction: column; */
-    }
+  
     .small-srch{
         display:flex;
         flex: 1 0 100%;
